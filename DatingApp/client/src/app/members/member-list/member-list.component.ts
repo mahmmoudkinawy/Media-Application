@@ -9,6 +9,8 @@ import { MembersService } from 'src/app/_services/members.service';
 })
 export class MemberListComponent implements OnInit {
   members:Member[];
+  num = 10;
+  
 
   constructor(private memberService: MembersService) { }
 
